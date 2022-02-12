@@ -28,7 +28,7 @@ int main(void)
     float x[100], y[100];
     FILE *fp;
 
-    if((fp=fopen("2011125-2.dat","r"))==NULL){
+    if((fp=fopen("text.txt","r"))==NULL){
         printf("cannot open file/n");
         exit(0);
     }
